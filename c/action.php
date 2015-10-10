@@ -13,7 +13,7 @@ include('../m/libs/forecast.io.php');
 
 //Get my model's singleton ToolsPdo
 $toolPdo = ToolsPdo::getToolsPdo();
-$searchRange = 4;
+$searchRange = 10;
 
 //forecast api need those
 $api_key = '538a11475afb9fdd4f9891efb0b697db';
