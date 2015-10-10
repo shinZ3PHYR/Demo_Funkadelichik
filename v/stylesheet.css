@@ -1,0 +1,82 @@
+<style>
+
+		
+		body
+		{
+			
+			background-image: url("./assets/bgWeb.jpg");
+
+			background-position: center center;
+			background-repeat: no-repeat; 
+			background-attachment: fixed; 
+			background-size: cover;
+			-moz-background-size: 100% 100%;     /* Gecko 1.9.2 (Firefox 3.6) */
+			-o-background-size: 100% 100%;       /*  Opera 9.5 */
+			-webkit-background-size: 100% 100%;  /* Safari 3.0 */
+			background-size: 100% 100%;          /*  Gecko 2.0 (Firefox 4.0) > CSS3  */
+			position: absolute;
+			display: inline-block;
+			vertical-align:middle;
+			
+		}
+		
+		#error
+		{
+			position: absolute;
+			display: inline-block;
+			margin-left: 86%;
+			color: red;
+		}
+		div#MainTitle
+		{  
+			/*margin-left: 20%;*/	
+			border:groove 5px #1100ff;
+			-moz-border-radius-topleft: 75px;
+			-moz-border-radius-topright:19px;
+			-moz-border-radius-bottomleft:20px;
+			-moz-border-radius-bottomright:75px;
+			-webkit-border-top-left-radius:75px;
+			-webkit-border-top-right-radius:19px;
+			-webkit-border-bottom-left-radius:20px;
+			-webkit-border-bottom-right-radius:75px;
+			border-top-left-radius:75px;
+			border-top-right-radius:19px;
+			border-bottom-left-radius:20px;
+			border-bottom-right-radius:75px;
+			background: ;
+			 margin: auto;
+    		width: 100%;
+    		height:100%;
+    		vertical-align: middle;
+
+    		/*border:3px solid #8AC007;*/
+    		padding: auto;
+    		
+			/*border :5px inset #8199AE;*/
+			/*border-radius: 2px;*/
+			
+  			text-align:center;
+  			display:inline-block;  		
+    		link-color: #FFFFFF;
+		}
+		#MainTitle.a:link{
+
+    		
+		}
+		div#firstName.h1{
+			position: absolute;
+			display: inline-block;
+			margin-left: 86%;
+			color: red;
+		}
+		div#lastName.h1{
+			position: absolute;
+			display: inline-block;
+			margin-left: 86%;
+			color: red;
+		}
+	}
+		
+
+
+</style> 
