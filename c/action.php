@@ -55,7 +55,9 @@ else if(!empty($_GET['Phaser']))
 }
 else
 {
-	echo "<div=''><a href='action.php?ID=0'>Profile User 1</a></div>";
+	echo "<div='error'><h1>We've met some 404 error, sorry for that...</h1></div>
+			<p>Consider trying another ID number in the URL</p>";
+	echo "<div=''><a href='action.php?ID=2'>Existing Profile : Nagato Yuki</a></div>";
 }
 
 
